@@ -9,7 +9,7 @@ def index():
     return jsonify({"Choo Choo": "Welcome to your Flask app 🚅"})
 
 @app.route('/home')
-def index():
+def home():
     return render_template("index.html")
 
 
